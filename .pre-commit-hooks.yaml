@@ -4,7 +4,7 @@
     entry: git-clang-format
     language: python
     'types_or': [c++, c, c#, cuda, java, javascript, json, objective-c, proto, textproto]
-    args: ["-style=file"]
+    args: ["--style=file"]
     require_serial: false
     additional_dependencies: []
     minimum_pre_commit_version: '2.9.2'
